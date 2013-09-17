@@ -1,0 +1,8 @@
+# Codeception Test Suite Configuration
+
+# suite for unit (internal) tests.
+class_name: CodeGuy
+modules:
+    enabled:
+            - Unit
+            - CodeHelper
