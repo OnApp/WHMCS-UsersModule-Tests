@@ -8,6 +8,7 @@ $server[ 'onappusers' ][ 'type' ] = 'onappusers';
 $server[ 'onappusers' ][ 'host' ] = '';
 $server[ 'onappusers' ][ 'user' ] = '';
 $server[ 'onappusers' ][ 'pass' ] = '';
+$server[ 'onappusers' ][ 'secure' ] = false;
 
 $WHMCS[ 'admin' ][ 'user' ] = '';
 $WHMCS[ 'admin' ][ 'pass' ] = '';
