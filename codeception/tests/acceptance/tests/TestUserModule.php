@@ -7,7 +7,7 @@ $I->amOnPage( '/admin/ordersadd.php' );
 $I->selectOption( 'userid', 'Codeception User' );
 $I->selectOption( 'paymentmethod', 'Bank Transfer' );
 $I->selectOption( '#pid0', $productName );
-$I->fillField( '#domain0', $clientUID . '.codeception.test' );
+$I->fillField( '#domain0', uniqid() . '.codeception.test' );
 $I->uncheckOption( '#adminorderconf' );
 $I->uncheckOption( '#admingenerateinvoice' );
 $I->uncheckOption( '#adminsendinvoice' );
